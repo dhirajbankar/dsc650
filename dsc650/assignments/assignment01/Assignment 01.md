@@ -2,7 +2,7 @@
 title: Assignment 1
 subtitle: Computer performance, reliability, and scalability calculation
 author: Dhiraj Bankar
----
+---------------------
 
 ## 1.2 
 
@@ -22,30 +22,29 @@ author: Dhiraj Bankar
 Calculations and references-
 1.  1 character is 1 byte
     https://www.unitconverters.net/data-storage/character-to-byte.htm
-    2.  It is just multiplication on 1024x768 = 786432 pixcels the
-        actual size of image is depends on the depth 16 bit or 32 bit.
-        If we take 16 bit then sizi well be (1024x768x16
-        bit)/(8*1024)/1024 = 1.5 MB
-        https://jan.ucc.nau.edu/lrm22/pixels2bytes/calculator.htm
-    3.  Raw image is 24 bit(3bytes). 1 Byte = 8bit. 1 MB = 1024KB,
-        1KB=1024 Bytes ((1024 * 768 * 24 bit)) / ( 8 * 1024)) / 1024 =
-        2.25 MB https://www.omnicalculator.com/other/image-file-size
-    4.  https://www.circlehd.com/blog/how-to-calculate-video-file-size
-        HEVC has compression ratio of 1000
+2.  It is just multiplication on 1024x768 = 786432 pixcels the
+    actual size of image is depends on the depth 16 bit or 32 bit.
+    If we take 16 bit then sizi well be (1024x768x16
+    bit)/(8*1024)/1024 = 1.5 MB
+    https://jan.ucc.nau.edu/lrm22/pixels2bytes/calculator.htm
+3.  Raw image is 24 bit(3bytes). 1 Byte = 8bit. 1 MB = 1024KB,
+    1KB=1024 Bytes ((1024 * 768 * 24 bit)) / ( 8 * 1024)) / 1024 =
+    2.25 MB https://www.omnicalculator.com/other/image-file-size
+4.  https://www.circlehd.com/blog/how-to-calculate-video-file-size
+    HEVC has compression ratio of 1000
 
-    (1920 * 1080 * * 24 bit * 30 fps * 900 duration in seconds) =
-    (1,343,692,800,000 / 8192) = (164,025,000 KB / 1024) = (160,180 MB /
-    1000 = 160 MB
+(1920 * 1080 * * 24 bit * 30 fps * 900 duration in seconds) =
+(1,343,692,800,000 / 8192) = (164,025,000 KB / 1024) = (160,180 MB /
+1000 = 160 MB
 
-    5.  (1920 * 1080 * 24 bit * 30 fps * 900 duration in seconds) =
-        (1,343,692,800,000 / 8192) = (164,025,000 KB / 1024) = 160,180
-        MB
-    6.  For 4K UHD, the dimensions is 3840 * 2160. So the size will be 4 times the HD video size. 160 * 4 =
-        640MB
-    7.  Row size 160,180 * 4 = 640,720 MB
-    8. https://bitesizebio.com/8378/how-much-information-is-stored-in-the-human-genome/
-       6*10^9 base pairs/diploid genome x 1 byte/4 base pairs = 1.5GB
-  * 
+5.  (1920 * 1080 * 24 bit * 30 fps * 900 duration in seconds) =
+    (1,343,692,800,000 / 8192) = (164,025,000 KB / 1024) = 160,180
+    MB
+6.  For 4K UHD, the dimensions is 3840 * 2160. So the size will be 4 times the HD video size. 160 * 4 =
+    640MB
+7.  Row size 160,180 * 4 = 640,720 MB
+8. https://bitesizebio.com/8378/how-much-information-is-stored-in-the-human-genome/
+   6*10^9 base pairs/diploid genome x 1 byte/4 base pairs = 1.5GB
 
 #### b. Scaling
 
